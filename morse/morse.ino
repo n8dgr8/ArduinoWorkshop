@@ -1,4 +1,4 @@
-int LED_PIN = 9;
+int LED_PIN = 6;
 int ONE_UNIT_DURATION = 200;
 int DAH_DURATION = 3;
 int LETTER_SPACING = 3;
