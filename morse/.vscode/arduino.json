@@ -1,5 +1,0 @@
-{
-    "port": "COM10",
-    "board": "arduino:avr:uno",
-    "sketch": "morse.ino"
-}
