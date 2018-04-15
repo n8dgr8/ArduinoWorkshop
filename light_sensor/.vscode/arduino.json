@@ -1,0 +1,6 @@
+{
+    "port": "COM15",
+    "board": "arduino:avr:diecimila",
+    "configuration": "cpu=atmega168",
+    "sketch": "light_sensor\\light_sensor.ino"
+}
