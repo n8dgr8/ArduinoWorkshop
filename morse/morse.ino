@@ -1,4 +1,4 @@
-int LED_PIN = 8;
+int LED_PIN = 9;
 int ONE_UNIT_DURATION = 200;
 int DAH_DURATION = 3;
 int LETTER_SPACING = 3;
@@ -23,11 +23,35 @@ void dah() {
 }
 
 void loop() {
+
+  dit();
+  dit();
+
+  delay(LETTER_SPACING * ONE_UNIT_DURATION);
+
+  dah();
+  dit();
+
+  delay(LETTER_SPACING * ONE_UNIT_DURATION);
+
+  dah();
+  dit();
+  dit();
+
+  delay(LETTER_SPACING * ONE_UNIT_DURATION);
+
+  dah();
+  dit();
+  dah();
+  dah();
+
+  delay(WORD_SPACING * ONE_UNIT_DURATION);
+
   dah();
   dit();
   dah();
   dit();
-  
+
   delay(LETTER_SPACING * ONE_UNIT_DURATION);
 
   dah();
@@ -42,29 +66,6 @@ void loop() {
 
   delay(LETTER_SPACING * ONE_UNIT_DURATION);
 
-  dit();
-
-  delay(LETTER_SPACING * ONE_UNIT_DURATION);
-
-  dah();
-  dah();
-
-  delay(LETTER_SPACING * ONE_UNIT_DURATION);
-
-  dit();
-  dah();
-
-  delay(LETTER_SPACING * ONE_UNIT_DURATION);
-
-  dit();
-  dit();
-  dit();
-
-  delay(LETTER_SPACING * ONE_UNIT_DURATION);
-
-  dit();
-  dit();
-  dit();
   dit();
 
   delay(WORD_SPACING * ONE_UNIT_DURATION);
