@@ -24,6 +24,34 @@ void dah() {
 
 void loop() {
 
+  dah();
+  dit();
+
+  delay(LETTER_SPACING * ONE_UNIT_DURATION);
+
+  dit();
+
+  delay(LETTER_SPACING * ONE_UNIT_DURATION);
+
+  dah();
+  dit();
+  dit();
+  dit();
+
+  delay(LETTER_SPACING * ONE_UNIT_DURATION);
+
+  dit();
+  dah();
+  dit();
+
+  delay(LETTER_SPACING * ONE_UNIT_DURATION);
+
+  dit();
+  dah();
+
+  delay(LETTER_SPACING * ONE_UNIT_DURATION);
+
+  dit();
   dit();
   dit();
 
@@ -31,20 +59,13 @@ void loop() {
 
   dah();
   dit();
+  dah();
 
   delay(LETTER_SPACING * ONE_UNIT_DURATION);
 
-  dah();
-  dit();
-  dit();
-
-  delay(LETTER_SPACING * ONE_UNIT_DURATION);
-
-  dah();
   dit();
   dah();
-  dah();
-
+  
   delay(WORD_SPACING * ONE_UNIT_DURATION);
 
   dah();
